@@ -39,9 +39,9 @@ def binarysearch2(n,low,high):
 이것은 return 문이 없다. 마지막 콜 스택에서의 함수가 middle값을 반환 할 지라도 그 다음으로 받는 것은 다음 상위 함수로의 Return 을 해주지 못하여 None 값을 반환하게 된다. 
 
 
-![alt text](image.png)
+!['return 없을 때 되는 경우'](image.png)
 사진 상에서 Return 이 없이 첫 번째 재귀 호출 때 If 문이 실행되도록 9를 탐색하는 코드를 호출 했을 때는 재귀가 처음부터 Return 이 들어가기 때문에 정상적으로 호출.
 
-![alt text](image-1.png)
+!['return 없을 때 안되는 경우'](image-1.png)
 이 사진으로 보면 콜 스택에 재귀함수가 쌓이면서 상위 함수로 return값이 계속해서 반환될 수 없기에 None 값이 출력됨.
 ---
