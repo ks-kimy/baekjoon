@@ -40,11 +40,11 @@ def binarysearch2(n,low,high):
 
 
 !['return 없을 때 되는 경우'](image.png)
-<img src="./image.png", height= "100x",width="100px">
+<img src="./image.png", height= "10x",width="10px">
 사진 상에서 Return 이 없이 첫 번째 재귀 호출 때 If 문이 실행되도록 9를 탐색하는 코드를 호출 했을 때는 재귀가 처음부터 Return 이 들어가기 때문에 정상적으로 호출.
 
 !['return 없을 때 안되는 경우'](image-1.png)
-<img src="./image-1.png", height= "100x",width="100px">
+<img src="./image-1.png", height= "10x",width="10px">
 
 이 사진으로 보면 콜 스택에 재귀함수가 쌓이면서 상위 함수로 return값이 계속해서 반환될 수 없기에 None 값이 출력됨.
 ---
