@@ -56,6 +56,7 @@ for _ in range(M):
     i, j = map(int, input().split())
     stack[i].append(j)
     stack[j].append(i)
+print(stack)
 for i in range(1,N+1):
     stack[i].sort()
 # print(stack)
