@@ -10,9 +10,9 @@ def dfs(start,length):
     for root in trees[start]:
         if visited[root[0]]:
             continue
-        visited[root[0]] = 1
+        
         dfs(root[0],length+root[1])
-        visited[root[0]] = 0
+ 
 
 
 trees = [[] for _ in range(N+1)]
